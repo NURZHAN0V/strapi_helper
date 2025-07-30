@@ -1,0 +1,213 @@
+# Strapi CMS v5 Руководство - .gitignore
+
+# ========================================
+# ФАЙЛЫ РАЗРАБОТКИ И СИСТЕМНЫЕ
+# ========================================
+
+# Временные файлы
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Логи
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Кэш
+.cache/
+.parcel-cache/
+.npm/
+.yarn/
+
+# ========================================
+# IDE И РЕДАКТОРЫ
+# ========================================
+
+# VS Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# WebStorm
+.idea/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+.vim/
+
+# ========================================
+# ОПЕРАЦИОННЫЕ СИСТЕМЫ
+# ========================================
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# ========================================
+# NODE.JS И NPM
+# ========================================
+
+# Зависимости
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Пакеты
+*.tgz
+*.tar.gz
+
+# Локальные файлы окружения
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ========================================
+# GIT
+# ========================================
+
+# Git
+.git/
+# .gitignore - оставляем в репозитории для студентов
+# .gitattributes - оставляем в репозитории для студентов
+
+# ========================================
+# ДОКУМЕНТАЦИЯ И РЕСУРСЫ
+# ========================================
+
+# Временные файлы документации
+*.bak
+*.backup
+*.old
+
+# Черновики
+drafts/
+draft-*/
+
+# ========================================
+# МЕДИАФАЙЛЫ
+# ========================================
+
+# Изображения
+*.jpg.bak
+*.png.bak
+*.gif.bak
+*.svg.bak
+
+# Видео
+*.mp4.bak
+*.avi.bak
+*.mov.bak
+
+# Аудио
+*.mp3.bak
+*.wav.bak
+
+# ========================================
+# АРХИВЫ
+# ========================================
+
+# Сжатые файлы
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+
+# ========================================
+# СПЕЦИФИЧНЫЕ ДЛЯ ПРОЕКТА
+# ========================================
+
+# Скрипты автоматизации (не нужны студенту)
+create-structure.ps1
+create-structure.sh
+setup-*.ps1
+setup-*.sh
+
+# Временные файлы разработки
+temp/
+tmp/
+build/
+dist/
+
+# Файлы конфигурации разработчика
+.vscode/settings.json
+.vscode/launch.json
+.vscode/tasks.json
+
+# ========================================
+# БЕЗОПАСНОСТЬ
+# ========================================
+
+# Ключи и токены
+*.key
+*.pem
+*.p12
+*.pfx
+secrets/
+keys/
+
+# ========================================
+# ПРОИЗВОДИТЕЛЬНОСТЬ
+# ========================================
+
+# Файлы мониторинга
+*.cpuprofile
+*.heapsnapshot
+*.heapprofile
+
+# ========================================
+# РЕЗЕРВНЫЕ КОПИИ
+# ========================================
+
+# Автоматические резервные копии
+*.backup
+*.bak
+*.orig
+*.rej
+
+# ========================================
+# КОНЕЦ ФАЙЛА
+# ========================================
