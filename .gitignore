@@ -167,8 +167,8 @@ setup-*.ps1
 setup-*.sh
 
 # Файлы разработки проекта (не нужны студенту)
-# development-plan.md - оставляем для разработки
-# quality-checklist.md - оставляем для разработки
+development-plan.md
+quality-checklist.md
 
 # Временные файлы разработки
 temp/
